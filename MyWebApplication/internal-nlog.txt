@@ -1,0 +1,54 @@
+2024-03-28 11:25:35.3557 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-03-28 11:25:35.4025 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-28 11:25:35.4154 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=C:\Users\kwang\workspace\learning\CSharp\MyWebApplication\MyWebApplication\NLog.config
+2024-03-28 11:25:35.4154 Info Configuration initialized.
+2024-03-28 11:29:12.0201 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-03-28 11:29:12.0969 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-28 11:29:12.1195 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=C:\Users\kwang\workspace\learning\CSharp\MyWebApplication\MyWebApplication\NLog.config
+2024-03-28 11:29:12.1384 Info Configuration initialized.
+2024-03-28 11:32:42.2210 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-03-28 11:32:42.2819 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-03-28 11:32:42.2970 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=C:\Users\kwang\workspace\learning\CSharp\MyWebApplication\MyWebApplication\NLog.config
+2024-03-28 11:32:42.3120 Info Configuration initialized.
+2024-03-28 11:34:20.3039 Info Configuration file change detected! Reloading in 1000ms...
+2024-03-28 11:34:21.3078 Info Reloading configuration...
+2024-03-28 11:34:21.3078 Info Loading NLog config from XML file: C:\Users\kwang\workspace\learning\CSharp\MyWebApplication\MyWebApplication\NLog.config
+2024-03-28 11:34:21.3270 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-03-28 11:34:21.3270 Info Closing old configuration.
+2024-03-28 11:34:21.3596 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=C:\Users\kwang\workspace\learning\CSharp\MyWebApplication\MyWebApplication\NLog.config
+2024-03-28 11:34:21.3596 Info Configuration initialized.
+2024-03-28 11:34:47.3679 Info Configuration file change detected! Reloading in 1000ms...
+2024-03-28 11:34:48.3737 Info Reloading configuration...
+2024-03-28 11:34:48.3737 Info Loading NLog config from XML file: C:\Users\kwang\workspace\learning\CSharp\MyWebApplication\MyWebApplication\NLog.config
+2024-03-28 11:34:48.3957 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-03-28 11:34:48.3957 Info Closing old configuration.
+2024-03-28 11:34:48.4123 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=C:\Users\kwang\workspace\learning\CSharp\MyWebApplication\MyWebApplication\NLog.config
+2024-03-28 11:34:48.4123 Info Configuration initialized.
+2024-03-28 11:34:50.6020 Info Configuration file change detected! Reloading in 1000ms...
+2024-03-28 11:34:51.5982 Info Reloading configuration...
+2024-03-28 11:34:51.5982 Info Loading NLog config from XML file: C:\Users\kwang\workspace\learning\CSharp\MyWebApplication\MyWebApplication\NLog.config
+2024-03-28 11:34:51.5982 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-03-28 11:34:51.6151 Info Closing old configuration.
+2024-03-28 11:34:51.6151 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=C:\Users\kwang\workspace\learning\CSharp\MyWebApplication\MyWebApplication\NLog.config
+2024-03-28 11:34:51.6151 Info Configuration initialized.
+2024-03-28 11:35:35.9591 Info Configuration file change detected! Reloading in 1000ms...
+2024-03-28 11:35:36.9544 Info Reloading configuration...
+2024-03-28 11:35:36.9544 Info Loading NLog config from XML file: C:\Users\kwang\workspace\learning\CSharp\MyWebApplication\MyWebApplication\NLog.config
+2024-03-28 11:35:36.9544 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-03-28 11:35:36.9544 Info Closing old configuration.
+2024-03-28 11:35:36.9787 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=C:\Users\kwang\workspace\learning\CSharp\MyWebApplication\MyWebApplication\NLog.config
+2024-03-28 11:35:36.9787 Info Configuration initialized.
+2024-03-28 11:35:44.7896 Info Configuration file change detected! Reloading in 1000ms...
+2024-03-28 11:35:45.7992 Info Reloading configuration...
+2024-03-28 11:35:45.7992 Info Loading NLog config from XML file: C:\Users\kwang\workspace\learning\CSharp\MyWebApplication\MyWebApplication\NLog.config
+2024-03-28 11:35:45.7992 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-03-28 11:35:45.7992 Info Closing old configuration.
+2024-03-28 11:35:45.8226 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=C:\Users\kwang\workspace\learning\CSharp\MyWebApplication\MyWebApplication\NLog.config
+2024-03-28 11:35:45.8226 Info Configuration initialized.
+2024-03-28 11:35:58.2927 Info Configuration file change detected! Reloading in 1000ms...
+2024-03-28 11:35:59.2996 Info Reloading configuration...
+2024-03-28 11:35:59.2996 Info Loading NLog config from XML file: C:\Users\kwang\workspace\learning\CSharp\MyWebApplication\MyWebApplication\NLog.config
+2024-03-28 11:35:59.2996 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-03-28 11:35:59.2996 Info Closing old configuration.
+2024-03-28 11:35:59.3226 Info Validating config: TargetNames=file, ConfigItems=16, FilePath=C:\Users\kwang\workspace\learning\CSharp\MyWebApplication\MyWebApplication\NLog.config
+2024-03-28 11:35:59.3226 Info Configuration initialized.
