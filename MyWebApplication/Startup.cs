@@ -11,7 +11,7 @@ namespace MyWebApplication
 
     public class Startup
     {
-        private static readonly ILogger<Startup> _logger = LoggerProvider.Logger<Startup>();
+        private static readonly ILogger<Startup> _logger = ServiceUtil.Logger<Startup>();
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;

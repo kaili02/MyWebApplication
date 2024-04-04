@@ -45,17 +45,25 @@ public class Program
     }
     static void Test()
     {
-        // 示例：输出当前时间
-        Console.WriteLine("当前时间：" + DateTime.Now);
-        Console.WriteLine("当前时间 UTC：" + DateTime.UtcNow);
+        // 初始化 FileInfo 对象
+        FileInfo iFile = new FileInfo("C:\\example\\file.txt");
+
+        // 获取目录路径
+        string sourcePath = iFile.Directory.FullName;
+
+        // 创建备份目录路径
+        string backupPath = Path.Combine(sourcePath, "backup");
+
+        // 打印备份目录路径
+        System.Console.WriteLine($"备份目录路径为: {backupPath}");
 
     }
 
     public static IHostBuilder CreateHostBuilder(string[] args) =>
         Host.CreateDefaultBuilder(args)
             .ConfigureServices(serviceCollection => {
-                // config ILogger util, then use it. ILogger<Startup> _logger = LoggerProvider.Logger<Startup>();
-                LoggerProvider.InitializeLogger(serviceCollection.BuildServiceProvider());
+                // config Service util
+                ServiceUtil.Initialize(serviceCollection.BuildServiceProvider());
             })
             .ConfigureWebHostDefaults(webBuilder =>
             {
@@ -64,6 +72,12 @@ public class Program
             .ConfigureLogging(logging =>
             {
                 logging.ClearProviders();  // 移除其他日志提供程序
+                logging.AddConsole(options =>
+                {
+                    options.IncludeScopes = true;
+                    options.TimestampFormat = "[yyyy-MM-dd HH:mm:ss] ";
+                    options.Format = Microsoft.Extensions.Logging.Console.ConsoleLoggerFormat.Systemd;
+                });
                 logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Debug);
             })
             .UseNLog(); // 使用 NLog
